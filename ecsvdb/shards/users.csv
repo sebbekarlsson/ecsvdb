@@ -1,4 +1,4 @@
-id;name;lastname
+id:integer;name:varchar;lastname:varchar
 1;john;doe
 2;johanna;doe
 3;maria;ericsson
