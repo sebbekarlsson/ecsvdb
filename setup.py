@@ -10,7 +10,7 @@ setup(
     packages=find_packages(),
     entry_points={
         'console_scripts': [
-            'ecsvdb = ecsvdb.bin:run'
+            'ecsvdb-client = ecsvdb.client_bin:run'
         ]
     }
 )
