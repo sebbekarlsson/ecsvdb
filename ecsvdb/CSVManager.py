@@ -71,7 +71,10 @@ class CSVManager(object):
             for row in rows:
                 new_contents += ';'.join([str(r) for r in row]) + '\n'
 
-            with open(csv_file + '.csv' if '.csv' not in csv_file else csv_file, 'w+') as _file:
+            with open(
+                csv_file + '.csv' if '.csv' not in csv_file else csv_file,
+                'w+'
+            ) as _file:
                 _file.write(new_contents)
             _file.close()
 
