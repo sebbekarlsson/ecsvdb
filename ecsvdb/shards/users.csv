@@ -3,3 +3,4 @@ id:integer;name:varchar;lastname:varchar
 2;johanna;doe
 3;maria;ericsson
 4;anna;carlsson
+5;Sebastian;Karlsson
