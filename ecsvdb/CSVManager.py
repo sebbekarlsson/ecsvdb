@@ -46,10 +46,8 @@ class CSVManager(object):
         sql = ''
 
         for filename in self.get_csv_files():
-            contents = read_and_close(filename)
-
             sql += csv_to_sql(
-                contents,
+                read_and_close(filename),
                 ntpath.basename(filename).replace('.', '_')
             )
 
